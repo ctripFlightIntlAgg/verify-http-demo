@@ -1,0 +1,57 @@
+{
+    "ResponseStatus": {
+        "Timestamp": "/Date(1581585423854+0800)/",
+        "Ack": "Success",
+        "Errors": [],
+        "Build": null,
+        "Version": null,
+        "Extension": []
+    },
+    "ResponseHeader": {
+        "SourceAppID": "100006319",
+        "TransactionID": "a1731567a496488393b9ee1051adbb0f",
+        "ChannelID": "CorpMobile",
+        "SubChannelID": 0,
+        "CustomerID": "_SL2236667515",
+        "ClientIP": null,
+        "DiagInput": null,
+        "ServerIP": "10.5.89.148",
+        "ReturnCode": 0
+    },
+    "TokenNumber": "4648284f37ba423d",
+    "ResultStatus": "SUCCESS",
+    "ValidationResultList": [
+        {
+            "PriceUnitIndex": 0,
+            "TokenNumber": "4648284f37ba423d",
+            "RepricingInfo": {
+                "RepricingStatus": "SUCCESS",
+                "QteDetailInfoList": [
+                    {
+                        "TravelerCategoryCode": "ADT",
+                        "PriceChanged": false,
+                        "PaidPrice": {
+                            "SalePrice": 885.0,
+                            "Tax": 140.0,
+                            "PublishPrice": 880.0,
+                            "Currency": "CNY"
+                        },
+                        "BaggageList": null,
+                        "PriceExtend": "{\"publishprice\":880.0,\"accountprice\":819.0,\"originalpublishprice\":880.0,\"originalaccountprice\":819.0,\"originalsaleprice\":885.0,\"originaltax\":140.0}"
+                    }
+                ],
+                "ErrorResult": null
+            },
+            "BookabilityInfo": {
+                "BookabilityStatus": "FAIL",
+                "FlightInfoList": null,
+                "ErrorResult": {
+                    "ErrorCode": 2,
+                    "ErrorMessage": null
+                }
+            },
+            "ErrorResult": null
+        }
+    ],
+    "ErrorResult": null
+}

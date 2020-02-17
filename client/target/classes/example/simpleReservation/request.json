@@ -1,0 +1,96 @@
+{
+    "RequestHeader": {
+        "SourceAppID": "100015380",
+        "TransactionID": "9874e24d-a7eb-4d01-9ddb-0bcda5fea0e2",
+        "ChannelID": "EnglishSite",
+        "SubChannelID": 1,
+        "CustomerID": "M02742729",
+        "ClientIP": "10.2.240.246",
+        "DiagInput": "XInsurance=true;scene=IBU_AvailValid;",
+        "LoggingLevel": 0
+    },
+    "Sync": false,
+    "OrderID": 31296740312,
+    "SearchCriteriaToken": "KLUv_QBQaQIACwgBEJMkGNTsAyCAoJC3jC4MEwgBEAEYARQYAyABKAswAUMoADAAOABAAEgAUACAAQCQAQCoAQC4AQDLAQgAzAHSAQEyREgAUABg0kY=",
+    "RouteSearchToken": "8000000008H3004B05Opo18000000000200000000001001hq510G00128HgG00dMm8000GV9F825",
+    "PassengerList": [
+        {
+            "PassengerId": 1,
+            "TravelerCategoryCode": "ADT",
+            "BirthDay": "2013-01-01",
+            "Gender": "Male",
+            "NationalityCode": "US",
+            "IDCardList": [
+                {
+                    "PriceUnitIndex": 0,
+                    "PassengerCardId": 0,
+                    "SurName": "TAO",
+                    "GivenName": "ZHE",
+                    "IDCardType": "PASSPORT",
+                    "IDCardNo": "1365963",
+                    "CardTimeLimit": "2021-04-14",
+                    "IssuingCountry": "US"
+                }
+            ]
+        }
+    ],
+    "ContactInfo": {
+        "ContactName": "ZHAO ERTONG",
+        "MobilePhone": "18900006688",
+        "ContactEmail": "lnqiao@ctrip.com",
+        "MobilePhoneCountryCode": "86"
+    },
+    "ReservationSource": 0,
+    "PriceUnitList": [
+        {
+            "PriceUnitIndex": 0,
+            "PriceInfoList": [
+                {
+                    "TravelerCategoryCode": "ADT",
+                    "PaidPriceDetail": {
+                        "Currency": "CNY",
+                        "SalePrice": 276,
+                        "Tax": 403,
+                        "PublishPrice": 300,
+                        "AccountPrice": 273,
+                        "NetPrice": 272.29
+                    },
+                    "OriginalPriceDetail": {
+                        "Currency": "CNY",
+                        "SalePrice": 276,
+                        "Tax": 403,
+                        "PublishPrice": 300,
+                        "AccountPrice": 273,
+                        "NetPrice": 272.29
+                    },
+                    "TagList": [
+                        {
+                            "Key": "CommitionSource",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "qteCommand",
+                            "Value": "ADT*01LOWD/HO/PUBL"
+                        }
+                    ],
+                    "QteCommand": "ADT*01LOWD/HO/PUBL"
+                }
+            ],
+            "TagList": [
+                {
+                    "Key": "SessionId",
+                    "Value": "9874e24d-a7eb-4d01-9ddb-0bcda5fea0e2"
+                },
+                {
+                    "Key": "CorpAgencyID",
+                    "Value": "2873"
+                },
+                {
+                    "Key": "CorpAgencyCode",
+                    "Value": "QHEB"
+                }
+            ]
+        }
+    ],
+    "FinalRequest": false
+}

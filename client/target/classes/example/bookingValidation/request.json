@@ -1,0 +1,20 @@
+{
+    "RequestHeader": {
+        "SourceAppID": "100006319",
+        "TransactionID": "a1731567a496488393b9ee1051adbb0f",
+        "ChannelID": "CorpMobile",
+        "SubChannelID": 0,
+        "CustomerID": "_SL2236667515",
+        "LoggingLevel": 0
+    },
+    "Sync": false,
+    "SearchCriteriaToken": "KLUv_QBQ6QIACwgBEJMkGMjlASCAwJP_hS4MEwgBEAEYARQYASABKAkwAEMSGFNISFIvUEVIUi9DQUhSL1NaSFIvQ1RIUigAMAA4AEABSABQAIABAJABAKgBALgBAERIAFAAYNJG",
+    "RouteSearchToken": "8000000008H6009K00xs21800000000020000000000G005Pj510G0012OHgG00Dh08000NQSO8I8",
+    "VerifyPassengerList": [
+        {
+            "TravelerCategoryCode": "ADT",
+            "PassengerCount": 1
+        }
+    ],
+    "FinalRequest": false
+}

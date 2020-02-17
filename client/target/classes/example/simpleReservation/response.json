@@ -1,0 +1,38 @@
+{
+    "ResponseStatus": {
+        "Timestamp": "/Date(1581596930225+0800)/",
+        "Ack": "Success",
+        "Errors": [],
+        "Build": null,
+        "Version": null,
+        "Extension": []
+    },
+    "ResponseHeader": {
+        "SourceAppID": "100015380",
+        "TransactionID": "9874e24d-a7eb-4d01-9ddb-0bcda5fea0e2",
+        "ChannelID": "EnglishSite",
+        "SubChannelID": 1,
+        "CustomerID": "M02742729",
+        "ClientIP": "10.2.240.246",
+        "DiagInput": "XInsurance=true;scene=IBU_AvailValid;",
+        "ServerIP": "10.5.89.148",
+        "ReturnCode": 0
+    },
+    "TokenNumber": "90c6687651774884",
+    "ResultStatus": "SUCCESS",
+    "SimpleReservationResultList": [
+        {
+            "PriceUnitIndex": 0,
+            "TokenNumber": "90c6687651774884",
+            "ResultStatus": "SUCCESS",
+            "ReservationResult": {
+                "AirlineOrderID": "",
+                "RecordNo": "KV1C4W",
+                "OfficeNumber": "NGB207",
+                "ReservationFareList": null
+            },
+            "ErrorResult": null
+        }
+    ],
+    "ErrorResult": null
+}
